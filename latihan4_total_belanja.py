@@ -21,4 +21,4 @@ subtotal = harga_satuan * jumlah_barang
 ppn = subtotal * 0.11
 total_bayar = subtotal + ppn
 
-print(f"Subtotal {rupiah(subtotal)}, PPN {rupian(ppn)}, Total {rupian(total_bayar)}")
+print(f"Subtotal {rupiah(subtotal)}, PPN {rupiah(ppn)}, Total {rupiah(total_bayar)}")
