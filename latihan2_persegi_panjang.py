@@ -1,5 +1,16 @@
-panjang = float(input("masukan panjang : "))
-lebar = float(input("masukan lebar   : "))
+def input_angka(message):
+    while True:
+        try:
+            nilai = float(input(message))
+            if nilai <= 0:
+                print("Nilai harus lebih dari 0, coba lagi.")
+                continue
+            return nilai
+        except ValueError:
+            print("Input harus berupa angka, coba lagi.")
+
+panjang = input_angka("masukan panjang : ")
+lebar = input_angka("masukan lebar   : ")
 
 luas = panjang * lebar
 keliling = 2 * (panjang + lebar)
