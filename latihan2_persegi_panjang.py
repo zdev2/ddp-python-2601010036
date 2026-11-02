@@ -15,7 +15,7 @@ lebar = input_angka("masukan lebar   : ")
 luas = panjang * lebar
 keliling = 2 * (panjang + lebar)
 
-print(f"Luas : {luas} m2, Keliling : {keliling} m")
+print(f"Luas : {luas:.2f} m2, Keliling : {keliling:.2f} m")
 
 """
 Trace Table (Contoh Input: panjang = 8, lebar = 5):
